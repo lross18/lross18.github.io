@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    margin: auto;
+
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px;
+
+
+    grid-template-areas:
+    "n1 n2 n3"
+    "n4 n5 n6"
+    "n7 n8 n9";
+}
+
+.flexbox {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+  }
+
+
+
+#num1 {
+    grid-area: n1;
+    align-items: center;
+}
+
+#num2 {
+    grid-area: n2;
+    align-items: center;
+}
+
+#num3 {
+    grid-area: n3;
+    align-items: center;
+}
+
+#num4 {
+    grid-area: n4;
+    align-items: center;
+}
+
+#num5 {
+    grid-area: n5;
+    align-items: center;
+}
+
+#num6 {
+    grid-area: n6;
+    align-items: center;
+}
+
+#num7 {
+    grid-area: n7;
+    justify-content: center;
+    align-items: center;
+}
+
+#num8 {
+    grid-area: n8;
+    align-items: center;
+}
+
+#num9 {
+    grid-area: n9;
+    align-items: center;
+}

@@ -5,31 +5,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color: #e8e9eb;">
+
     <p>Lets go gambling</p>
 
+
+    <input id="textBox" readonly>
+
     <div class="container">
-    <button class="flexbox" id="num1">1</button>
-    <button class="flexbox" id="num2">2</button>
-    <button class="flexbox" id="num3">3</button>
+    <button class="flexbox button-style flex-button" id="num1" onclick="appendText('1')">1</button>
+    <button class="flexbox button-style flex-button" id="num2" onclick="appendText('2')">2</button>
+    <button class="flexbox button-style flex-button" id="num3" onclick="appendText('3')">3</button>
 
-    <button class="flexbox" id="num4">4</button>
-    <button class="flexbox" id="num5">5</button>
-    <button class="flexbox" id="num6">6</button>
+    <button class="flexbox button-style flex-button" id="num4" onclick="appendText('4')">4</button>
+    <button class="flexbox button-style flex-button" id="num5" onclick="appendText('5')">5</button>
+    <button class="flexbox button-style flex-button" id="num6" onclick="appendText('6')">6</button>
 
-    <button class="flexbox" id="num7">7</button>
-    <button class="flexbox" id="num8">8</button>
-    <button class="flexbox" id="num9">9</button>
+    <button class="flexbox button-style flex-button" id="num7" onclick="appendText('7')">7</button>
+    <button class="flexbox button-style flex-button" id="num8" onclick="appendText('8')">8</button>
+    <button class="flexbox button-style flex-button" id="num9" onclick="appendText('9')">9</button>
+
+    <button class="flexbox button-style flex-button" id="numMul" onclick="appendText('*')">*</button>
+    <button class="flexbox button-style flex-button" id="numAdd" onclick="appendText('+')">+</button>
+    <button class="flexbox button-style flex-button" id="numSub" onclick="appendText('-')">-</button>
+
+    <button class="flexbox button-style flex-button" id="numClear" onclick="clearText()">C</button>
+    <button class="flexbox button-style flex-button" id="numBack" onclick="backSpace()">B</button>
+    <button class="flexbox button-style flex-button" id="numEquate" onclick="calc()">=</button>
     </div>
 
-
-
-
-
-
-    
+    <script src="script.js"></script>
 </body>
-
-
-
 </html>

@@ -12,7 +12,8 @@
     "n4 n5 n6"
     "n7 n8 n9"
     "n10 n11 n12"
-    "n13 n14 n15";
+    "n13 n14 n15"
+    "n16 n17 n18";
 }
 
 .button-style {
@@ -101,11 +102,20 @@
     grid-area: n14;
 } 
 
-#numEquate {
+#numDiv {
     grid-area: n15;
 } 
 
+#numEquate {
+    grid-area: n16;
+} 
+
 #textBox {
-    display: flexbox;
-    justify-content: center;
+    display: block;
+    margin: 50px auto;
+    height: 55px;
+    width: 200px;
+    font-size: 32px;
+    border: 2px solid #04a96d;
+    border-radius: 10px;
 }

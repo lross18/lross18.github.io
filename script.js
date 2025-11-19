@@ -8,7 +8,12 @@ function appendText(input) {
 }
 
 function calc() {
-    textBox.value = eval(textBox.value);
+    try {
+        textBox.value = eval(textBox.value);
+    } catch (error) {
+        clearText();
+        appendText("Err")
+    }
 }
 
 function backSpace() {
